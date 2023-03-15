@@ -8,9 +8,9 @@ import java.util.Collections;
 public final class MyConnection {
 
     private final static String DB_USER = "root";
-    private final static String DB_PASSWORD = "root";
+    private final static String DB_PASSWORD = "saochilang97";
 
-    private final static String DB_CONNECTION_URL = "jdbc:mysql://localhost:8889/bkacad";
+    private final static String DB_CONNECTION_URL = "jdbc:mysql://localhost:3306/bkacad";
 
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(DB_CONNECTION_URL, DB_USER, DB_PASSWORD);
